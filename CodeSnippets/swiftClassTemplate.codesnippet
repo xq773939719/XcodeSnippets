@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>swiftClassTemplate</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>public class &lt;#className#&gt; {
+    // MARK: - Static
+    static let &lt;#name#&gt;: &lt;#valueType#&gt; = &lt;#value#&gt;
+    
+    // MARK: - Public
+    var &lt;#name#&gt;: &lt;#valueType#&gt;?
+    
+    // MARK: - Private
+    private var &lt;#name#&gt;: &lt;#valueType#&gt;?
+}
+
+
+extension &lt;#className#&gt; {
+    func &lt;#method#&gt;() {}
+}
+
+// MARK: - Public Method
+extension &lt;#className#&gt; {
+    func &lt;#method#&gt;() {}
+}
+
+// MARK: - Life Cycle
+extension &lt;#className#&gt; {
+    override func &lt;#method#&gt;() {}
+}
+
+// MARK: - Action
+extension &lt;#className#&gt; {
+    private func &lt;#method#&gt;() {}
+}
+
+// MARK: - Private
+extension &lt;#className#&gt; {
+    private func &lt;#method#&gt;() {}
+}
+
+// MARK: - Protocol
+extension &lt;#className#&gt; : &lt;#protocol#&gt; {
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>29D4CE1E-B320-47D6-A596-FD9E37264E66</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift语法类模板</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>swiftClassTemplate</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>
