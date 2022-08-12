@@ -10,9 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>- (&lt;#ClassName#&gt; *)&lt;#MethodName#&gt; {
-    if (_&lt;#MethodName#&gt;) {
-        return _&lt;#MethodName#&gt;;
-    }
+    if (_&lt;#MethodName#&gt;) return _&lt;#MethodName#&gt;;
     _&lt;#MethodName#&gt; = [&lt;#ClassName#&gt; new];
     return _&lt;#MethodName#&gt;;
 }</string>
